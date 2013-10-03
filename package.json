@@ -1,0 +1,21 @@
+{
+  "name": "guessjs",
+  "version": "0.0.1",
+  "description": "The git repo for the guessjs engine.",
+  "author": "Vinayak Mishra <viks@vnykmshr.com> (www.vnykmshr.com)",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/vnykmshr/guessjs.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3",
+    "jade": "*",
+    "hiredis": "*",
+    "connect-redis": "*",
+    "procmon": "git+ssh://git@bitbucket.org/vnykmshr/procmon.git"
+  }
+}
