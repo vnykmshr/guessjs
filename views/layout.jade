@@ -2,6 +2,10 @@ doctype 5
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    include layout/headercss
+    include layout/headerjs
   body
-    block content
+    .wrapper
+      block content
+
+      include layout/footer

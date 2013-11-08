@@ -1,5 +1,26 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .ui.header Random
+  .ui.one.column.grid
+    .column
+      .ui.fluid.form.segment
+        .field
+          Show randow guess here
+
+  .ui.divider
+
+  .geditor
+    form(action="#", method="POST")
+      .ui.fluid.form.segment
+        .field
+          textarea
+
+        .field
+          .ui.buttons
+            #saveBtn.ui.positive.button Save
+            .or
+            #cancelBtn.ui.button Cancel
+
+          .ui.label.hidden
+            .errmsg &nbsp;

@@ -1,0 +1,28 @@
+/* styles */
+
+.wrapper {
+  width: 720px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 20px 5px 10px 5px;
+}
+
+.box {
+  background-color:#FFF;
+  position:relative;
+  margin-bottom:10px;
+  padding:40px 0 5px;
+}
+
+.shadow {
+  -moz-box-shadow:5px 5px 5px #888;
+  -webkit-box-shadow:5px 5px 5px #888;
+  box-shadow:5px 5px 5px #888;
+}
+
+.guess {
+  padding: 10px;
+  border: 1px solid gray;
+}
